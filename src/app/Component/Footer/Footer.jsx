@@ -114,7 +114,7 @@ export default function Footer() {
 </section>
       <footer className="flex flex-col gap-3 max-w-6xl mx-auto px-4 mt-20">
         <div className="container flex justify-center gap-2">
-          <Image src="/Navbar/logo.png" alt="logo" width={25} height={25} />
+          <Image src={logo} alt="logo" width={25} height={25} />
           <Typography
             variant="heading"
             className="text-[#150E06] text-xl font-bold "
