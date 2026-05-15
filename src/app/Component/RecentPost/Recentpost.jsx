@@ -1,68 +1,84 @@
 import Typography from "../Typography";
 import Image from "next/image";
 import { blogData } from "../../StaticData/data";
+
 export default function Recentpost() {
   return (
-    <>
-      <section>
-        <div className="container mx-auto mt-40">
-          <div className="flex justify-between gap-4 ">
-            <Typography
-              variant="heading"
-              className="text-[48px] font-bold text-[#333333] text-center"
-            >
-              Our Recent Posts
-            </Typography>
-            <button className="bg-[#7C4EE4] text-white px-4 py-2 rounded-sm w-30 h-10">
-              view
-            </button>
-          </div>
-          <div className="flex mx-auto mt-10 mb-20 gap-6">
+    <section>
+      <div className="container mx-auto mt-2 lg:mt-10 px-4">
+        <div className="hidden md:flex flex-col sm:flex-row justify-between items-center gap-4">
+          <Typography
+            variant="heading"
+            className="text-[32px] lg:text-[48px] font-bold text-[#333333] text-center sm:text-left"
+          >
+            Our Recent Posts
+          </Typography>
+
+          <button className="bg-[#7C4EE4] text-white px-4 py-2 rounded-sm w-fit h-10">
+            View
+          </button>
+        </div>
+
+        <div className="flex flex-col lg:flex-row mt-10 mb-20 gap-8">
+          <div className="lg:w-1/2">
             <Image
               src={blogData.imageAlt}
               alt={blogData.title}
               width={1300}
               height={300}
-              className="w-full h-auto rounded-lg"
+              className="w-full h-auto rounded-lg object-cover"
             />
+          </div>
 
-            <div className="flex flex-col justify-between gap-4 p-4">
-              <div className="flex gap-4">
-                <Typography
-                  variant="heading"
-                  className="text-[#373737] text-[12px] font-bold"
-                >
-                  {blogData.category}
-                </Typography>
-
-                <Typography
-                  variant="paragraph"
-                  className="text-[#373737] text-[12px] font-bold"
-                >
-                  {blogData.date}
-                </Typography>
-              </div>
+          <div className="lg:w-1/2 flex flex-col justify-between gap-4">
+            <div className="flex gap-4 flex-wrap">
               <Typography
                 variant="heading"
-                className="text-[#150E06] text-[32px]"
+                className="text-[#373737] text-[12px] font-bold"
               >
-                {blogData.title}
+                {blogData.category}
               </Typography>
 
               <Typography
                 variant="paragraph"
-                className="text-[#373737] text-[16px]"
+                className="text-[#373737] text-[12px]"
               >
-                {blogData.description}
+                {blogData.date}
               </Typography>
-
-              <button className="bg-[#7C4EE4] text-white px-4 py-2 rounded-sm w-fit">
-                {blogData.buttonText}
-              </button>
             </div>
+
+            <Typography
+              variant="heading"
+              className="text-[#150E06] text-[24px] lg:text-[32px] leading-tight"
+            >
+              {blogData.title}
+            </Typography>
+
+            <Typography
+              variant="paragraph"
+              className="text-[#373737] text-[14px] lg:text-[16px] leading-relaxed"
+            >
+              {blogData.description}
+            </Typography>
+
+            <button className="bg-[#7C4EE4] text-white px-4 py-2 rounded-sm w-fit cursor-pointer">
+              {blogData.buttonText}
+            </button>
           </div>
         </div>
-      </section>
-    </>
+        <div className=" lg:hidden flex flex-row sm:flex-col justify-between items-center gap-4">
+          <Typography
+            variant="heading"
+            className="text-[20px] lg:text-[48px] font-bold text-[#333333] text-center sm:text-left"
+          >
+            Our Recent Posts
+          </Typography>
+
+          <button className="bg-[#7C4EE4] text-white px-4 py-2 rounded-sm w-fit h-10">
+            View
+          </button>
+        </div>
+      </div>
+    </section>
   );
 }

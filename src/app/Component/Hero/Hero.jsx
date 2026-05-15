@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="relative bg-[#7C4EE4] overflow-hidden py-20">
-      <div className="absolute -top-35 -left-[4px]">
+      <div className="absolute -top-35 -left-1">
         <Image
           src="/Hero/Mask group.svg"
           alt="vector"
@@ -14,7 +14,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 ">
+      <div className="container mx-auto px-4 md:px-6 lg:px-0 grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div className="flex flex-col  justify-around gap-4">
           <Typography variant="paragraph" className="text-white text-[16px]">
             Featured Post

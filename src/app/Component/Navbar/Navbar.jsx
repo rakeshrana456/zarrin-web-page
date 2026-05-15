@@ -1,42 +1,90 @@
-import React from 'react'
+"use client";
+
+import React, { useState } from "react";
 import Image from "next/image";
-import Link from 'next/link';
-import Typography from '../Typography';
-import { Search } from "lucide-react";
+import Link from "next/link";
+import Typography from "../Typography";
+import { Search, Menu, X } from "lucide-react";
+
 export default function Navbar() {
+  const [openMenu, setOpenMenu] = useState(false);
+
   return (
-    <>
-      <nav>
-        <div className='container flex justify-between items-center py-4 mx-auto '>
-          <div className='flex items-center gap-2'>
-            <Image
-              src="/Logo.png"
-              width={31}
-              height={31}
-              alt="" />
-            <Typography variant="heading" className="text-[#333333] text-xl font-bold">Zarrin</Typography>
-          </div>
-          <div className='flex items-center gap-4'>
+    <nav className="border-b">
+      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+        <div className="flex items-center gap-2">
+          <Image src="/Logo.png" width={31} height={31} alt="Logo" />
 
-            <Link href="/" >
-            <Typography variant='paragraph' className='text-[#333333] text-[11px] hover:text-[#7C4EE4]'>Blog</Typography>
-            </Link>
-
-
-            <Link href="/about">
-            <Typography variant='paragraph' className='text-[#333333] text-[11px] hover:text-[#7C4EE4]'>About</Typography>
-            </Link>
-
-            <Search className="w-4 h-4 text-gray-700" />
-            <button className="bg-[#7C4EE4] p-2 rounded-sm">
-              <Typography variant='heading' className=' text-[11px] text-white-200 w-20'> Contact Us</Typography>
-            </button>
-          </div>
+          <Typography
+            variant="heading"
+            className="text-[#333333] text-xl font-bold"
+          >
+            Zarrin
+          </Typography>
         </div>
 
+        <div className="hidden md:flex items-center gap-6">
+          <Link href="/">
+            <Typography
+              variant="paragraph"
+              className="text-[#333333] text-[11px] hover:text-[#7C4EE4]"
+            >
+              {" "}
+              Blog{" "}
+            </Typography>
+          </Link>
+          <Link href="/about">
+            <Typography
+              variant="paragraph"
+              className="text-[#333333] text-[11px] hover:text-[#7C4EE4]"
+            >
+              {" "}
+              About{" "}
+            </Typography>
+          </Link>
+          <Search className="w-4 h-4 text-gray-700" />
+          <button className="bg-[#7C4EE4] p-2 rounded-sm">
+            <Typography
+              variant="heading"
+              className=" text-[11px] text-white-200 w-20"
+            >
+              {" "}
+              Contact Us{" "}
+            </Typography>
+          </button>
+        </div>
+        <button className="md:hidden" onClick={() => setOpenMenu(!openMenu)}>
+          {openMenu ? <X className="w-6 h-6 text-black" /> : <Menu className="w-6 h-6 text-black border border-e-black rounded-full " />}
+        </button>
+      </div>
 
-      </nav>
-    </>
-  )
+      {openMenu && (
+        <div className="md:hidden flex flex-col gap-4 px-4 pb-4">
+          <Link href="/">
+            <Typography
+              variant="paragraph"
+              className="text-[#333333] text-[11px] hover:text-[#7C4EE4]"
+            >
+              {" "}
+              Blog{" "}
+            </Typography>
+          </Link>
+          <Link href="/about">
+            <Typography
+              variant="paragraph"
+              className="text-[#333333] text-[11px] hover:text-[#7C4EE4]"
+            >
+              {" "}
+              About{" "}
+            </Typography>
+          </Link>
+          <Search className="w-4 h-4 text-gray-700" />
+
+          <button className="bg-[#7C4EE4] px-4 py-2 rounded-sm text-white w-fit">
+            Contact Us
+          </button>
+        </div>
+      )}
+    </nav>
+  );
 }
-
