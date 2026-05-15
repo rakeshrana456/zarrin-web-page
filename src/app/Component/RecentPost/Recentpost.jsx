@@ -5,7 +5,7 @@ import { blogData } from "../../StaticData/data";
 export default function Recentpost() {
   return (
     <section>
-      <div className="container mx-auto mt-2 lg:mt-10 px-4">
+      <div className="container mx-auto px-4">
         <div className="hidden md:flex flex-col sm:flex-row justify-between items-center gap-4">
           <Typography
             variant="heading"
@@ -30,7 +30,7 @@ export default function Recentpost() {
             />
           </div>
 
-          <div className="lg:w-1/2 flex flex-col justify-between gap-4">
+          <div className="lg:w-1/2 flex flex-col  gap-4 ">
             <div className="flex gap-4 flex-wrap">
               <Typography
                 variant="heading"
@@ -61,7 +61,7 @@ export default function Recentpost() {
               {blogData.description}
             </Typography>
 
-            <button className="bg-[#7C4EE4] text-white px-4 py-2 rounded-sm w-fit cursor-pointer">
+            <button className="text-[#7C4EE4] border border-[#7C4EE4]px-4 py-2 rounded-md w-fit cursor-pointer mt-14 p-3">
               {blogData.buttonText}
             </button>
           </div>

@@ -4,7 +4,7 @@ export default function BlogCard({ data }) {
   return (
     <>
       <section>
-        <div className="container mx-auto pt-6">     
+        <div className="container mx-auto pt-6 px-4 md:px-6">     
         <div className="flex flex-col gap-4 h-full ">
           <div >
             <Image

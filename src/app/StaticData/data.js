@@ -7,6 +7,7 @@ export const blogData = {
   title: "How to make a Game look more attractive with New VR & AI Technology",
   description:
     "Google has been investing in AI for many years and bringing its benefits to individuals, businesses and communities. Whether it’s publishing state-of-the-art research, building helpful products or developing tools and resources that enable others, we’re committed to making AI accessible to everyone.",
+
   buttonText: "Read More",
 };
 export const blogDataList = [

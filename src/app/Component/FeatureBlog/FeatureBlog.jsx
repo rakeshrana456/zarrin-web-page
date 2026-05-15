@@ -36,7 +36,7 @@ export default function ThirdContainer() {
             <div className="flex gap-4 flex-wrap items-center">
               <Typography
                 variant="heading"
-                className="text-[#7C4EE4] text-[12px] font-semibold uppercase"
+                className="text-[#373737] text-[12px] font-semibold uppercase"
               >
                 {blogData.category}
               </Typography>

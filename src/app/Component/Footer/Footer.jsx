@@ -6,61 +6,113 @@ export default function Footer() {
   const SocialLinks = ["FB", "IG", "LN", "YT"];
   return (
     <>
-      <section className="relative bg-[#7C4EE4] overflow-hidden py-20">
-        <div className="absolute -top-35 -left-1">
-          <Image
-            src="/Hero/Mask group.svg"
-            alt="vector"
-            width={585}
-            height={158}
-          />
-        </div>
+     <section className="relative bg-[#7C4EE4] overflow-hidden py-16 lg:py-24 mt-20 lg:mt-40">
+  
+  {/* Top Shape */}
+  <div className="absolute -top-20 -left-10 opacity-40 lg:opacity-100">
+    <Image
+      src="/Hero/Mask group.svg"
+      alt="vector"
+      width={585}
+      height={158}
+      className="w-[250px] sm:w-[350px] lg:w-auto h-auto"
+    />
+  </div>
 
-        <div className="container mx-auto  ">
-          <div className="flex flex-col items-center gap-8">
-            <Typography variant="paragraph" className="text-white text-[38px] text-center leading-10 ">
-              Get our stories delivered From <br />
-              us to your inbox weekly.
-            </Typography>
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    
+    <div className="flex flex-col items-center gap-8 text-center">
+      
+      {/* Heading */}
+      <Typography
+        variant="paragraph"
+        className="
+          text-white
+          text-[28px]
+          sm:text-[36px]
+          lg:text-[48px]
+          leading-tight
+          font-semibold
+        "
+      >
+        Get our stories delivered From
+        <br className="hidden sm:block" />
+        us to your inbox weekly.
+      </Typography>
 
-            <div className="flex gap-2">
-              <input
-                type="text"
-                placeholder="Your email "
-                className="border bg-[#ffffff] text-gray-400 w-[229] h-[40] rounded-md "
-              />
-              <button>
-                {" "}
-                <Typography
-                  variant="paragraph"
-                  className="text-white border w-[119] h-[40] rounded-md flex items-center justify-center"
-                >
-                  Get started
-                </Typography>{" "}
-              </button>
-             
-            </div>
-            <div>
-                 <Typography variant="paragraph" className="text-white text-[11px] text-center">
-                Get a response tomorrow if you submit by 9pm today. If we received after <br /> 9pm will get a reponse the following day.
-                </Typography>
-            </div>
-          </div>
+      {/* Input + Button */}
+      <div className="flex flex-col sm:flex-row items-center gap-3 w-full max-w-xl">
+        
+        <input
+          type="text"
+          placeholder="Your email"
+          className="
+            w-full
+            sm:flex-1
+            h-12
+            px-4
+            rounded-md
+            bg-white
+            text-gray-700
+            outline-none
+          "
+        />
 
-          <div className="flex justify-center"></div>
+        <button className="w-full sm:w-auto">
+          <Typography
+            variant="paragraph"
+            className="
+              text-white
+              border
+              border-white
+              h-12
+              px-6
+              rounded-md
+              flex
+              items-center
+              justify-center
+              hover:bg-white
+              hover:text-[#7C4EE4]
+              transition
+            "
+          >
+            Get started
+          </Typography>
+        </button>
+      </div>
 
-           <div className="absolute top-50 right-1">
-          <Image
-            src="/Footer/Mask group (1).svg"
-            alt="vector"
-            width={585}
-            height={158}
-          />
-        </div>
+      {/* Bottom Text */}
+      <Typography
+        variant="paragraph"
+        className="
+          text-white
+          text-[12px]
+          sm:text-[14px]
+          text-center
+          leading-relaxed
+          max-w-2xl
+        "
+      >
+        Get a response tomorrow if you submit by 9pm today.
+        If we receive it after 9pm, you will get a response
+        the following day.
+      </Typography>
+    </div>
 
-        </div>
-      </section>
-      <footer className="flex flex-col gap-3 max-w-6xl mx-auto px-4">
+    {/* Bottom Shape */}
+  
+  </div>
+    <div className="absolute top-80 right-1 opacity-40 lg:opacity-100">
+  <Image
+    src="/Footer/Mask group (1).svg"
+    alt="vector"
+    width={585}
+    height={158}
+    className="lg:w-auto h-auto"
+  />
+</div>
+</section>
+      <footer className="flex flex-col gap-3 max-w-6xl mx-auto px-4 mt-20">
         <div className="container flex justify-center gap-2">
           <Image src="/Navbar/logo.png" alt="logo" width={25} height={25} />
           <Typography

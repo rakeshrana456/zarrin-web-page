@@ -42,7 +42,7 @@ export default function Hero() {
           </button>
         </div>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center relative">
           <Image
             src="/Hero/Hero-Ai.png"
             alt="hero"
@@ -51,6 +51,14 @@ export default function Hero() {
             className="w-full  h-auto"
           />
         </div>
+      </div>
+      <div className="absolute top-135 right-0">
+        <Image
+          src="/Footer/Mask group (1).svg"
+          alt="vector"
+          width={585}
+          height={158}
+        />
       </div>
     </section>
   );
