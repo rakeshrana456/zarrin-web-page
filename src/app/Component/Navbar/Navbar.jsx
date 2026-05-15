@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Typography from "../Typography";
 import { Search, Menu, X } from "lucide-react";
+import Logo from "/Navbar/Logo.png";
 
 export default function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -13,7 +14,7 @@ export default function Navbar() {
     <nav className="border-b">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center gap-2">
-          <Image src="/Logo.png" width={31} height={31} alt="Logo" />
+          <Image src={Logo} width={31} height={31} alt="Logo" />
 
           <Typography
             variant="heading"
