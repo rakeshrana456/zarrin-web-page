@@ -1,6 +1,7 @@
 import React from "react";
 import Typography from "../Typography";
 import Image from "next/image";
+import logo from "../../../../public/Navbar/Logo.png";
 export default function Footer() {
   const array = ["Home", "Blog", "About", "Contact Us"];
   const SocialLinks = ["FB", "IG", "LN", "YT"];

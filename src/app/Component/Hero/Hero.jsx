@@ -52,7 +52,7 @@ export default function Hero() {
           />
         </div>
       </div>
-      <div className="absolute top-135 right-0">
+      <div className="hidden lg:block absolute top-135 right-0">
         <Image
           src="/Footer/Mask group (1).svg"
           alt="vector"
