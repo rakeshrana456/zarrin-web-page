@@ -76,10 +76,14 @@ export default function Navbar() {
 
       {openMenu && (
         <div className="md:hidden flex flex-col gap-4 px-4 pb-4">
-          <Link href="/">
+          <Link href="/blog">
             <Typography
               variant="paragraph"
-              className="text-[#333333] text-[11px] hover:text-[#7C4EE4]"
+              className={
+                pathname === "/blog"
+                  ? "text-[#7C4EE4] text-[11px]"
+                  : "text-[#333333] text-[11px] hover:text-[#7C4EE4]"
+              }
             >
               {" "}
               Blog{" "}
