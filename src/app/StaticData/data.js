@@ -14,7 +14,7 @@ export const blogDataList = [
   {
     "id": 1,
     "image": "/blogpost/Beach.png",
-     "imageAlt": "/Recent/vr-person.png",
+     "imageAlt": "/blogpost/Beach.png",
     "category": "Travel",
     "date": "13 March 2023",
     "title": "8 Rules Of Travelling In Sea You Need To Know",
@@ -25,7 +25,7 @@ export const blogDataList = [
     "id": 2,
     "image": "/blogpost/Mac.png",
     "category": "DEVELOPMENT",
-    "imageAlt": "/Recent/vr-person.png",
+    "imageAlt": "/blogpost/Mac.png",
     "date": "11 March 2023",
     "title": "How to build strong portfolio and get a Job in UI/UX",
     "description": "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from",
@@ -33,8 +33,8 @@ export const blogDataList = [
   },
   {
     "id": 3,
-    "image": "/blogpost/football.png",
-    "imageAlt": "/Recent/Vrperson.png",
+    "image": "/blogpost/Football.png",
+    "imageAlt": "/blogpost/Football.png",
     "category": "Sports",
     "date": "10 March 2023",
     "title": "How to Be a Professional Footballer in 2023",
