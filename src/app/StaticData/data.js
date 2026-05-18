@@ -46,7 +46,7 @@ export const blogDataList = [
 export const BlogDataRender = [
   {
     "id": 1,
-    "image": "/NavBlogs/train.png",
+    "image": "/NavBlogs/Train.png",
      "imageAlt": "/Recent/vr-person.png",
     "category": "Travel",
     "date": "13 March 2023",
