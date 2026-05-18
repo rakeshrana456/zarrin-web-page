@@ -34,7 +34,7 @@ export const blogDataList = [
   {
     "id": 3,
     "image": "/blogpost/football.png",
-    "imageAlt": "/Recent/vr-person.png",
+    "imageAlt": "/Recent/Vrperson.png",
     "category": "Sports",
     "date": "10 March 2023",
     "title": "How to Be a Professional Footballer in 2023",
