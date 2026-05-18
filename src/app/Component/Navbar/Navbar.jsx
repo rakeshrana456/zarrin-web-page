@@ -6,10 +6,13 @@ import Link from "next/link";
 import Typography from "../Typography";
 import { Search, Menu, X } from "lucide-react";
 import logo from "../../../../public/Navbar/Logo.png";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
 
+  const pathname = usePathname();
+  console.log(pathname, "pathName");
   return (
     <nav className="border-b">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
@@ -20,15 +23,19 @@ export default function Navbar() {
             variant="heading"
             className="text-[#333333] text-xl font-bold"
           >
-            Zarrin
+            <Link href="/">Zarrin</Link>
           </Typography>
         </div>
 
         <div className="hidden md:flex items-center gap-6">
-          <Link href="/">
+          <Link href="/blog">
             <Typography
               variant="paragraph"
-              className="text-[#333333] text-[11px] hover:text-[#7C4EE4]"
+              className={
+                pathname === "/blog"
+                  ? "text-[#7C4EE4] text-[11px]"
+                  : "text-[#333333] text-[11px] hover:text-[#7C4EE4]"
+              }
             >
               {" "}
               Blog{" "}
@@ -37,7 +44,11 @@ export default function Navbar() {
           <Link href="/about">
             <Typography
               variant="paragraph"
-              className="text-[#333333] text-[11px] hover:text-[#7C4EE4]"
+              className={
+                pathname === "/About"
+                  ? "text-[#7C4EE4] text-[11px]"
+                  : "text-[#333333] text-[11px] hover:text-[#7C4EE4]"
+              }
             >
               {" "}
               About{" "}
@@ -55,7 +66,11 @@ export default function Navbar() {
           </button>
         </div>
         <button className="md:hidden" onClick={() => setOpenMenu(!openMenu)}>
-          {openMenu ? <X className="w-6 h-6 text-black" /> : <Menu className="w-6 h-6 text-black border border-e-black rounded-full " />}
+          {openMenu ? (
+            <X className="w-6 h-6 text-black" />
+          ) : (
+            <Menu className="w-6 h-6 text-black border border-e-black rounded-full " />
+          )}
         </button>
       </div>
 
