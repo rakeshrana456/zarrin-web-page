@@ -6,7 +6,7 @@ import Typography from "../Typography";
 export default function ThirdContainer() {
   return (
     <section className="py-12 lg:py-20">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 ">
         {/* Wrapper */}
         <div className="relative">
           {/* Image */}

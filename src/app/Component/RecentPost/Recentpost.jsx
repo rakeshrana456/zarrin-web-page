@@ -66,7 +66,7 @@ export default function Recentpost() {
             </button>
           </div>
         </div>
-        <div className=" lg:hidden flex flex-row sm:flex-col justify-between items-center gap-4">
+        <div className="lg:hidden flex flex-row sm:flex-col justify-between items-center gap-4">
           <Typography
             variant="heading"
             className="text-[20px] lg:text-[48px] font-bold text-[#333333] text-center sm:text-left"
