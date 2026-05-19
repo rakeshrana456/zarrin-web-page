@@ -1,7 +1,7 @@
 import Typography from "../Typography";
 import Image from "next/image";
 import { blogData } from "../../StaticData/data";
-
+import Button from "../Button/Button";
 export default function Recentpost() {
   return (
     <section>
@@ -14,9 +14,7 @@ export default function Recentpost() {
             Our Recent Posts
           </Typography>
 
-          <button className="bg-[#7C4EE4] text-white px-4 py-2 rounded-sm w-fit h-10 cursor-pointer">
-            View
-          </button>
+          <Button variant="secondary">View</Button>
         </div>
 
         <div className="flex flex-col lg:flex-row mt-10 mb-20 gap-8">
@@ -61,10 +59,12 @@ export default function Recentpost() {
               {blogData.description}
             </Typography>
 
-            <button className="text-[#7C4EE4] border border-[#7C4EE4]px-4 py-2 rounded-md w-fit cursor-pointer mt-14 p-3">
+            {/* <button className="text-[#7C4EE4] border border-[#7C4EE4]px-4 py-2 rounded-md w-fit cursor-pointer mt-14 p-3">
               {blogData.buttonText}
-            </button>
-          </div>
+            </button>*/}
+            <Button variant="secondary">{blogData.buttonText}</Button>
+           </div> 
+          
         </div>
         <div className="lg:hidden md:flex-row flex flex-row sm:flex-col justify-between items-center gap-4">
           <Typography
@@ -74,9 +74,7 @@ export default function Recentpost() {
             Our Recent Posts
           </Typography>
 
-          <button className="bg-[#7C4EE4] text-white px-4 py-2 rounded-sm w-fit h-10 cursor-pointer">
-            View
-          </button>
+          <Button variant="secondary">View</Button>
         </div>
       </div>
     </section>

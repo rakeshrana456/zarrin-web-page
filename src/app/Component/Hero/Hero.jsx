@@ -1,6 +1,8 @@
 import React from "react";
 import Typography from "../Typography";
 import Image from "next/image";
+// import Button from "../../../Component/Button"
+import Button from "../../Component/Button/Button.jsx"
 export default function Hero() {
   return (
     <section className="relative bg-[#7C4EE4] overflow-hidden py-20">
@@ -35,10 +37,10 @@ export default function Hero() {
               navigation, direction
             </Typography>
           </div>
-
-          <button className="bg-white text-[#373737] px-6 py-3 rounded-sm w-fit cursor-pointer">
+          <Button variant="primary">
             <Typography variant="heading">Read more</Typography>
-          </button>
+          </Button>
+          
         </div>
         <div className="flex justify-center relative">
           <Image
@@ -49,6 +51,7 @@ export default function Hero() {
             className="w-full  h-auto"
           />
         </div>
+          
       </div>
       <div className="hidden lg:block absolute top-135 right-0">
         <Image
@@ -57,6 +60,8 @@ export default function Hero() {
           width={585}
           height={158}
         />
+      
+
       </div>
     </section>
   );

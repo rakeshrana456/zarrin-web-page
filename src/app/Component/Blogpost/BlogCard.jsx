@@ -52,7 +52,7 @@ export default function BlogCard({ data }) {
               <div className="mt-auto">
                 <Typography
                   variant="heading"
-                  className="text-[#7C4EE4]  text-[18px] font-bold underline cursor-pointer "
+                  className="text-[#7C4EE4]  text-[18px] font-bold underline cursor-pointer hover:text-purple-400 hover:opacity-90 transition-all duration-200"
                 >
                   {data.buttonText}
                 </Typography>

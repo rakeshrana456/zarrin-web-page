@@ -2,6 +2,7 @@ import React from "react";
 import Typography from "../Typography";
 import Image from "next/image";
 import logo from "../../../../public/Navbar/Logo.png";
+import Button from "../Button/Button";
 export default function Footer() {
   const array = ["Home", "Blog", "About", "Contact Us"];
   const SocialLinks = ["FB", "IG", "LN", "YT"];
@@ -57,28 +58,7 @@ export default function Footer() {
           "
               />
 
-              <button className="w-full sm:w-auto">
-                <Typography
-                  variant="paragraph"
-                  className="
-              text-white
-              border
-              cursor-pointer
-              border-white
-              h-12
-              px-6
-              rounded-md
-              flex
-              items-center
-              justify-center
-              hover:bg-white
-              hover:text-[#7C4EE4]
-              transition
-            "
-                >
-                  Get started
-                </Typography>
-              </button>
+              <Button variant="outline">Get Started</Button>
             </div>
 
             {/* Bottom Text */}

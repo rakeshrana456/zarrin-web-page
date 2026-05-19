@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { blogData } from "../../StaticData/data";
 import Typography from "../Typography";
-
+import Button from "../Button/Button";
 export default function ThirdContainer() {
   return (
     <section className="py-12 lg:py-20">
@@ -73,11 +73,7 @@ export default function ThirdContainer() {
             >
               {blogData.description}
             </Typography>
-
-            {/* Button */}
-            <button className="bg-[#7C4EE4] text-white px-5 py-3 rounded-sm w-fit hover:opacity-90 transition cursor-pointer">
-              {blogData.buttonText}
-            </button>
+            <Button variant="secondary"> {blogData.buttonText}</Button>
           </div>
         </div>
 
