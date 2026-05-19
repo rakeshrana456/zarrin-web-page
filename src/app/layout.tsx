@@ -31,7 +31,7 @@ export default function RootLayout({
       <body className=" bg-[#ffffff]">
         <Navbar />
         {children}
-        <Footer />
+       1010 <Footer />
       </body>
     </html>
   );

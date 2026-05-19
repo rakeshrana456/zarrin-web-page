@@ -1,7 +1,6 @@
 import React from "react";
 import Typography from "../Typography";
 import Image from "next/image";
-
 export default function Hero() {
   return (
     <section className="relative bg-[#7C4EE4] overflow-hidden py-20">
@@ -41,7 +40,7 @@ export default function Hero() {
             <Typography variant="heading">Read more</Typography>
           </button>
         </div>
- <div className="flex justify-center relative">
+        <div className="flex justify-center relative">
           <Image
             src="/Hero/Hero-Ai.png"
             alt="hero"
