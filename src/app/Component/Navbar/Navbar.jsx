@@ -15,7 +15,7 @@ export default function Navbar() {
   console.log(pathname, "pathName");
   return (
     <nav className="border-b">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div className="container mx-auto px-4 py-4 flex justify-between items-center ">
         <div className="flex items-center gap-2">
           <Image src={logo} width={31} height={31} alt="Logo" />
 
@@ -54,11 +54,11 @@ export default function Navbar() {
               About{" "}
             </Typography>
           </Link>
-          <Search className="w-4 h-4 text-gray-700" />
+          <Search className="w-4 h-4 text-gray-700 cursor-pointer"  />
           <button className="bg-[#7C4EE4] p-2 rounded-sm">
             <Typography
               variant="heading"
-              className=" text-[11px] text-white-200 w-20"
+              className=" text-[11px] text-white-200 w-20 cursor-pointer"
             >
               {" "}
               Contact Us{" "}
@@ -100,7 +100,7 @@ export default function Navbar() {
           </Link>
           <Search className="w-4 h-4 text-gray-700" />
 
-          <button className="bg-[#7C4EE4] px-4 py-2 rounded-sm text-white w-fit">
+          <button className="bg-[#7C4EE4] px-4 py-2 rounded-sm text-white w-fit cursor-pointer">
             Contact Us
           </button>
         </div>

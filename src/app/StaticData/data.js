@@ -40,7 +40,8 @@ export const blogDataList = [
     "title": "How to Be a Professional Footballer in 2023",
     "description": "Organically grow the holistic world view of disruptive ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from ",
     "buttonText": "Read More..."
-  }
+  },
+  
 ]
 
 export const BlogDataRender = [

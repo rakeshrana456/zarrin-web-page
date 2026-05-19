@@ -7,9 +7,8 @@ export default function ThirdContainer() {
   return (
     <section className="py-12 lg:py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 ">
-        {/* Wrapper */}
+     
         <div className="relative">
-          {/* Image */}
           <Image
             src={blogData.image}
             alt={blogData.title}
@@ -68,7 +67,7 @@ export default function ThirdContainer() {
               className="
                 text-[#373737]
                 text-[14px]
-                sm:text-[16px]
+                md:text-[11px]
                 leading-relaxed
               "
             >
@@ -76,7 +75,7 @@ export default function ThirdContainer() {
             </Typography>
 
             {/* Button */}
-            <button className="bg-[#7C4EE4] text-white px-5 py-3 rounded-sm w-fit hover:opacity-90 transition">
+            <button className="bg-[#7C4EE4] text-white px-5 py-3 rounded-sm w-fit hover:opacity-90 transition cursor-pointer">
               {blogData.buttonText}
             </button>
           </div>

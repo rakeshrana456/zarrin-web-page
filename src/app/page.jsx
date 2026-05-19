@@ -8,13 +8,11 @@ import BlogPost from "./Component/Blogpost/BlogPost";
 import { blogDataList } from "./StaticData/data";
 export default function Home() {
   return (
-    <>
-      {/* <Navbar /> */}
+    <main>
       <Hero />
       <FeatureBlog />
       <Recentpost />
       <BlogPost blogs={blogDataList} />
-      {/* <Footer /> */}
-    </>
+    </main>
   );
 }

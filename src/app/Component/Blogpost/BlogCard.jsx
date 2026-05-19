@@ -4,45 +4,61 @@ export default function BlogCard({ data }) {
   return (
     <>
       <section>
-        <div className="container mx-auto pt-6 px-4 md:px-6">     
-        <div className="flex flex-col gap-4 h-full ">
-          <div >
-            <Image
-              src={data.image}
-              alt={data.imageAlt}
-              width={400}
-              height={360}
-            />
-          </div>
-          <div className="flex gap-4">
-          <div>
-            <Typography variant="paragraph" className="text-[12px]">
-              {data.category}
-            </Typography>
-          </div>
-          <div>
-            <Typography variant="paragraph" className="text-[14px] text-[#999999]">
-              {data.date}
-            </Typography>
-          </div>
-          </div>
-          <div>
-            <Typography variant="heading" className="text-[24px] text-[#333333] font-bold">
-              {data.title}
-            </Typography>
-          </div>
+        <div className="w-full pt-6 px-4">
+  <div className="flex flex-col gap-4 h-full">
+    <div>
+      <Image
+        src={data.image}
+        alt={data.imageAlt}
+        width={400}
+        height={360}
+        className="w-full h-auto"
+      />
+            </div>
+            <div className="flex gap-4">
+              <div>
+                <Typography variant="paragraph" className="text-[12px]">
+                  {data.category}
+                </Typography>
+              </div>
+              <div>
+                <Typography
+                  variant="paragraph"
+                  className="text-[14px] text-[#999999]"
+                >
+                  {data.date}
+                </Typography>
+              </div>
+            </div>
 
-          <div>
-            <Typography variant="heading" className="text-[16px] text-[#666666] ">
-              {data.description}
-            </Typography>
+            <div>
+              <div>
+                <Typography
+                  variant="heading"
+                  className="text-[24px] text-[#333333] font-bold"
+                >
+                  {data.title}
+                </Typography>
+              </div>
+
+              <div className="min-h-[120px]">
+                <Typography
+                  variant="heading"
+                  className="text-[16px] text-[#666666]"
+                >
+                  {data.description}
+                </Typography>
+              </div>
+              <div className="mt-auto">
+                <Typography
+                  variant="heading"
+                  className="text-[#7C4EE4]  text-[18px] font-bold underline cursor-pointer "
+                >
+                  {data.buttonText}
+                </Typography>
+              </div>
+            </div>
           </div>
-          <div>
-            <Typography variant="heading" className="text-[#7C4EE4]  text-[18px] font-bold underline cursor-pointer ">
-             {data.buttonText}
-            </Typography>
-          </div>
-        </div>
         </div>
       </section>
     </>

@@ -14,7 +14,7 @@ export default function Recentpost() {
             Our Recent Posts
           </Typography>
 
-          <button className="bg-[#7C4EE4] text-white px-4 py-2 rounded-sm w-fit h-10">
+          <button className="bg-[#7C4EE4] text-white px-4 py-2 rounded-sm w-fit h-10 cursor-pointer">
             View
           </button>
         </div>
@@ -66,7 +66,7 @@ export default function Recentpost() {
             </button>
           </div>
         </div>
-        <div className="lg:hidden flex flex-row sm:flex-col justify-between items-center gap-4">
+        <div className="lg:hidden md:flex-row flex flex-row sm:flex-col justify-between items-center gap-4">
           <Typography
             variant="heading"
             className="text-[20px] lg:text-[48px] font-bold text-[#333333] text-center sm:text-left"
@@ -74,7 +74,7 @@ export default function Recentpost() {
             Our Recent Posts
           </Typography>
 
-          <button className="bg-[#7C4EE4] text-white px-4 py-2 rounded-sm w-fit h-10">
+          <button className="bg-[#7C4EE4] text-white px-4 py-2 rounded-sm w-fit h-10 cursor-pointer">
             View
           </button>
         </div>

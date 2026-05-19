@@ -28,5 +28,6 @@ body {
 @utility container {
   @media (width >= 64rem) {
     max-width: 1232px;
+    
   }
 }

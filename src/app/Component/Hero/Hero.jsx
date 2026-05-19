@@ -14,15 +14,15 @@ export default function Hero() {
         />
       </div>
 
-      <div className="container mx-auto px-4 md:px-6 lg:px-0 grid grid-cols-1 lg:grid-cols-2 gap-10">
-        <div className="flex flex-col  justify-around gap-4">
+      <div className="container mx-auto  px-4 md:px-6 lg:px-0 grid grid-cols-1 lg:grid-cols-2 gap-10">
+        <div className="flex flex-col gap-4  justify-around max-h-120">
           <Typography variant="paragraph" className="text-white text-[16px]">
             Featured Post
           </Typography>
 
           <Typography
             variant="heading"
-            className="font-bold text-[40px] md:text-[64px]"
+            className="font-bold text-[40px] md:text-[64px] leading-12 lg:leading-20"
           >
             How AI will <br />
             Change the Future
@@ -37,12 +37,11 @@ export default function Hero() {
             </Typography>
           </div>
 
-          <button className="bg-white text-[#373737] px-6 py-3 rounded-sm w-fit">
+          <button className="bg-white text-[#373737] px-6 py-3 rounded-sm w-fit cursor-pointer">
             <Typography variant="heading">Read more</Typography>
           </button>
         </div>
-
-        <div className="flex justify-center relative">
+ <div className="flex justify-center relative">
           <Image
             src="/Hero/Hero-Ai.png"
             alt="hero"
