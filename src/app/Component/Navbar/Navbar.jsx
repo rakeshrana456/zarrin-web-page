@@ -69,7 +69,7 @@ export default function Navbar() {
           {openMenu ? (
             <X className="w-6 h-6 text-black" />
           ) : (
-            <Menu className="w-6 h-6 text-black border border-e-black rounded-full " />
+            <Menu className="w-6 h-6 text-black  " />
           )}
         </button>
       </div>
