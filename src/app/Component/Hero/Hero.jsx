@@ -3,6 +3,7 @@ import Typography from "../Typography";
 import Image from "next/image";
 // import Button from "../../../Component/Button"
 import Button from "../../Component/Button/Button.jsx"
+import Link from "next/link"
 export default function Hero() {
   return (
     <section className="relative bg-[#7C4EE4] overflow-hidden py-20">
@@ -37,10 +38,11 @@ export default function Hero() {
               navigation, direction
             </Typography>
           </div>
+          <Link href="/blog/feature-post">
           <Button variant="primary">
             <Typography variant="heading">Read more</Typography>
           </Button>
-          
+          </Link>
         </div>
         <div className="flex justify-center relative">
           <Image

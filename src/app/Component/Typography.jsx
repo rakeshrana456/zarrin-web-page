@@ -17,7 +17,7 @@ export default function Typography({
 }) {
   if (variant === "heading") {
     return (
-      <h1
+      <h1 
         className={`${raleway.className}  ${className}`}
       >
         {children}

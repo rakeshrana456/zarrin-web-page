@@ -3,11 +3,11 @@ import Image from "next/image";
 import { blogData } from "../../StaticData/data";
 import Typography from "../Typography";
 import Button from "../Button/Button";
+import Link from "next/link";
 export default function ThirdContainer() {
   return (
     <section className="py-12 lg:py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 ">
-     
         <div className="relative">
           <Image
             src={blogData.image}
@@ -73,7 +73,9 @@ export default function ThirdContainer() {
             >
               {blogData.description}
             </Typography>
-            <Button variant="secondary"> {blogData.buttonText}</Button>
+            <Link href="/blog/vr-ai-technology">
+              <Button variant="secondary">{blogData.buttonText}</Button>
+            </Link>
           </div>
         </div>
 

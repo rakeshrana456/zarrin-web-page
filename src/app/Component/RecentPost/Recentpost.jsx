@@ -1,5 +1,6 @@
 import Typography from "../Typography";
 import Image from "next/image";
+import Link from "next/link"
 import { blogData } from "../../StaticData/data";
 import Button from "../Button/Button";
 export default function Recentpost() {
@@ -62,7 +63,7 @@ export default function Recentpost() {
             {/* <button className="text-[#7C4EE4] border border-[#7C4EE4]px-4 py-2 rounded-md w-fit cursor-pointer mt-14 p-3">
               {blogData.buttonText}
             </button>*/}
-            <Button variant="secondary">{blogData.buttonText}</Button>
+          <Link href="/blog/recent-post"> <Button variant="secondary">{blogData.buttonText}</Button> </Link>
            </div> 
           
         </div>
