@@ -21,7 +21,7 @@ export default async function BlogPage({ params }) {
 
   return (
     <section className="py-20">
-      <div className="container mx-auto flex flex-col gap-20 px-4 lg:px-0">
+      <div className="container mx-auto flex flex-col gap-12 lg:gap-20 px-4 lg:px-0">
         <div className="flex flex-col gap-4 max-w-250 mx-auto ">
           {" "}
           <Typography
@@ -32,7 +32,7 @@ export default async function BlogPage({ params }) {
           </Typography>
           <Typography
             variant="heading"
-            className="text-[48px] font-bold text-[#333333]"
+            className="lg:text-[48px] text-[30px] font-bold text-[#333333]"
           >
             {blog.title}
           </Typography>
@@ -47,7 +47,7 @@ export default async function BlogPage({ params }) {
             className="w-full"
           />
         </div>
-        <div className="flex flex-col gap-8  max-w-250 mx-auto">
+        <div className="flex flex-col gap-8 max-w-250 mx-auto">
           <Typography variant="heading" className="text-[#666666] text-[16px]">
             {blog.description[0]}
           </Typography>
@@ -60,7 +60,7 @@ export default async function BlogPage({ params }) {
           <div className="flex flex-col gap-6">
             <Typography
               variant="paragraph"
-              className="text-[24px] text-[#666666] leading-11"
+              className="text-[16px] lg:text-[24px] text-[#666666] leading-11"
             >
               "{blog?.quote?.text}"{" "}
             </Typography>
