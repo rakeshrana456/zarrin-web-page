@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Button from "../../Component/Button/Button";
 import BlogPost from "../../Component/Blogpost/BlogPost";
+//import { Link } from "lucide-react";
+import Link from "next/link"
 
 
 export async function generateStaticParams() {
@@ -104,8 +106,8 @@ export default async function BlogPage({ params }) {
           >
             Popular Posts
           </Typography>
-
-          <Button variant="secondary">View All</Button>
+         <Link href="/blog">
+          <Button variant="secondary">View All</Button></Link>
         </div>
         <BlogPost blogs={BlogDataRender.slice(0,3)} />
       </div>

@@ -11,6 +11,8 @@ import { usePathname } from "next/navigation";
 export default function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
 
+  console.log(openMenu,"Open menu is")
+
   const pathname = usePathname();
   console.log(pathname, "pathName");
   return (
@@ -54,7 +56,7 @@ export default function Navbar() {
               About{" "}
             </Typography>
           </Link>
-          <Search className="w-4 h-4 text-gray-700 cursor-pointer"  />
+          <Search className="w-4 h-4 text-gray-700 cursor-pointer" />
           <button className="bg-[#7C4EE4] p-2 rounded-sm">
             <Typography
               variant="heading"
@@ -78,6 +80,7 @@ export default function Navbar() {
         <div className="md:hidden flex flex-col gap-4 px-4 pb-4">
           <Link href="/blog">
             <Typography
+              onClick={() => setOpenMenu(!openMenu)}
               variant="paragraph"
               className={
                 pathname === "/blog"
@@ -91,6 +94,7 @@ export default function Navbar() {
           </Link>
           <Link href="/about">
             <Typography
+            on
               variant="paragraph"
               className="text-[#333333] text-[11px] hover:text-[#7C4EE4]"
             >

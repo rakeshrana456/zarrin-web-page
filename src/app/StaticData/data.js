@@ -14,6 +14,7 @@ export const blogData = {
 export const blogDataList = [
   {
     id: 1,
+    slug:"Travel-blog",
     image: "/blogpost/Beach.png",
     imageAlt: "/blogpost/Beach.png",
     category: "Travel",
@@ -25,6 +26,7 @@ export const blogDataList = [
   },
   {
     id: 2,
+    slug:"development-blog",
     image: "/blogpost/Mac.png",
     category: "DEVELOPMENT",
     imageAlt: "/blogpost/Mac.png",
@@ -36,6 +38,7 @@ export const blogDataList = [
   },
   {
     id: 3,
+    slug:"Sport-blog",
     image: "/blogpost/Football.png",
     imageAlt: "/blogpost/Football.png",
     category: "Sports",
@@ -50,6 +53,7 @@ export const blogDataList = [
 export const BlogDataRender = [
   {
     id: 1,
+    slug:"train-blog",
     image: "/NavBlogs/Train.png",
     imageAlt: "/Recent/vr-person.png",
     category: "Travel",
@@ -62,6 +66,7 @@ export const BlogDataRender = [
   {
     id: 2,
     image: "/NavBlogs/Laptop.png",
+    slug:"dev-blog",
     category: "DEVELOPMENT",
     imageAlt: "/Recent/vr-person.png",
     date: "11 March 2023",
@@ -72,6 +77,7 @@ export const BlogDataRender = [
   },
   {
     id: 3,
+    slug:"sport-blog",
     image: "/NavBlogs/Dancer.png",
     imageAlt: "/Recent/vr-person.png",
     category: "Sports",
@@ -83,6 +89,7 @@ export const BlogDataRender = [
   },
   {
     id: 4,
+    slug:"travels-blog",
     image: "/NavBlogs/Singer.png",
     imageAlt: "/Recent/vr-person.png",
     category: "Travel",
@@ -94,6 +101,7 @@ export const BlogDataRender = [
   },
   {
     id: 5,
+    slug:"buisness-blog",
     image: "/NavBlogs/Man.png",
     category: "DEVELOPMENT",
     imageAlt: "/Recent/vr-person.png",
@@ -105,6 +113,7 @@ export const BlogDataRender = [
   },
   {
     id: 6,
+    slug:"chocolate-blog",
     image: "/NavBlogs/Chocolate.png",
     imageAlt: "/Recent/vr-person.png",
     category: "Sports",
@@ -248,6 +257,455 @@ export const NewBlogs = [
     footerText:
       "The future of technology will continue to blend creativity, artificial intelligence and user-focused design. Developers who adapt to these modern tools and practices will play a major role in shaping innovative digital experiences for millions of users worldwide.",
   },
+   {
+    id: 5,
+     slug:"Travel-blog",
+    category: "Development",
+    date: "16 March 2023",
+    title:
+      "The Future of Web Development with Modern AI & Interactive Experiences",
+
+    heroImage: "/Blogs/VrImage.png",
+    alt: "VrImage.png",
+
+    description: [
+      "Modern web technologies are transforming how users interact with digital platforms. From AI-powered interfaces to immersive animations, developers are creating faster, smarter and more engaging applications than ever before.",
+
+      "Companies across the world are adopting advanced frontend frameworks and cloud solutions to deliver seamless user experiences. Tools like React, Next.js and Tailwind CSS are helping teams build scalable and maintainable applications with improved performance.",
+
+      "As technology continues to evolve, developers are focusing more on accessibility, responsive design and personalized experiences. These innovations are shaping the next generation of websites and digital products.",
+    ],
+
+    quote: {
+      text: "Technology is best when it brings people together and makes complex things feel simple.",
+      author: "Matt Mullenweg",
+    },
+
+    content: [
+      "The rise of AI-driven tools is changing the workflow of modern developers. From automated code suggestions to intelligent design systems, teams can now build products faster while maintaining high quality standards. Businesses are also investing heavily in digital transformation to stay competitive in an increasingly connected world.",
+
+      "Frontend development has become more dynamic with frameworks like Next.js enabling server-side rendering, optimized performance and improved SEO capabilities. Developers are combining these tools with reusable component architectures to create efficient and scalable applications.",
+
+      "User expectations are also evolving rapidly. People now expect websites to load instantly, work smoothly across devices and provide intuitive navigation. As a result, performance optimization and responsive design have become essential parts of every development process.",
+    ],
+
+    secondaryImage: "/blogs/gaming.png",
+
+    footerText:
+      "The future of technology will continue to blend creativity, artificial intelligence and user-focused design. Developers who adapt to these modern tools and practices will play a major role in shaping innovative digital experiences for millions of users worldwide.",
+  },
+
+
+  {
+    id: 6,
+    slug:"development-blog",
+    category: "Development",
+    date: "16 March 2023",
+    title:
+      "The Future of Web Development with Modern AI & Interactive Experiences",
+
+    heroImage: "/Blogs/VrImage.png",
+    alt: "VrImage.png",
+
+    description: [
+      "Modern web technologies are transforming how users interact with digital platforms. From AI-powered interfaces to immersive animations, developers are creating faster, smarter and more engaging applications than ever before.",
+
+      "Companies across the world are adopting advanced frontend frameworks and cloud solutions to deliver seamless user experiences. Tools like React, Next.js and Tailwind CSS are helping teams build scalable and maintainable applications with improved performance.",
+
+      "As technology continues to evolve, developers are focusing more on accessibility, responsive design and personalized experiences. These innovations are shaping the next generation of websites and digital products.",
+    ],
+
+    quote: {
+      text: "Technology is best when it brings people together and makes complex things feel simple.",
+      author: "Matt Mullenweg",
+    },
+
+    content: [
+      "The rise of AI-driven tools is changing the workflow of modern developers. From automated code suggestions to intelligent design systems, teams can now build products faster while maintaining high quality standards. Businesses are also investing heavily in digital transformation to stay competitive in an increasingly connected world.",
+
+      "Frontend development has become more dynamic with frameworks like Next.js enabling server-side rendering, optimized performance and improved SEO capabilities. Developers are combining these tools with reusable component architectures to create efficient and scalable applications.",
+
+      "User expectations are also evolving rapidly. People now expect websites to load instantly, work smoothly across devices and provide intuitive navigation. As a result, performance optimization and responsive design have become essential parts of every development process.",
+    ],
+
+    secondaryImage: "/blogs/gaming.png",
+
+    footerText:
+      "The future of technology will continue to blend creativity, artificial intelligence and user-focused design. Developers who adapt to these modern tools and practices will play a major role in shaping innovative digital experiences for millions of users worldwide.",
+  },
+
+   {
+    id: 7,
+    slug:"Sport-blog",
+    category: "Development",
+    date: "16 March 2023",
+    title:
+      "The Future of Web Development with Modern AI & Interactive Experiences",
+
+    heroImage: "/Blogs/VrImage.png",
+    alt: "VrImage.png",
+
+    description: [
+      "Modern web technologies are transforming how users interact with digital platforms. From AI-powered interfaces to immersive animations, developers are creating faster, smarter and more engaging applications than ever before.",
+
+      "Companies across the world are adopting advanced frontend frameworks and cloud solutions to deliver seamless user experiences. Tools like React, Next.js and Tailwind CSS are helping teams build scalable and maintainable applications with improved performance.",
+
+      "As technology continues to evolve, developers are focusing more on accessibility, responsive design and personalized experiences. These innovations are shaping the next generation of websites and digital products.",
+    ],
+
+    quote: {
+      text: "Technology is best when it brings people together and makes complex things feel simple.",
+      author: "Matt Mullenweg",
+    },
+
+    content: [
+      "The rise of AI-driven tools is changing the workflow of modern developers. From automated code suggestions to intelligent design systems, teams can now build products faster while maintaining high quality standards. Businesses are also investing heavily in digital transformation to stay competitive in an increasingly connected world.",
+
+      "Frontend development has become more dynamic with frameworks like Next.js enabling server-side rendering, optimized performance and improved SEO capabilities. Developers are combining these tools with reusable component architectures to create efficient and scalable applications.",
+
+      "User expectations are also evolving rapidly. People now expect websites to load instantly, work smoothly across devices and provide intuitive navigation. As a result, performance optimization and responsive design have become essential parts of every development process.",
+    ],
+
+    secondaryImage: "/blogs/gaming.png",
+
+    footerText:
+      "The future of technology will continue to blend creativity, artificial intelligence and user-focused design. Developers who adapt to these modern tools and practices will play a major role in shaping innovative digital experiences for millions of users worldwide.",
+  },
+
+  {
+    id: 8,
+    slug:"train-blog",
+    category: "Development",
+    date: "16 March 2023",
+    title:
+      "The Future of Web Development with Modern AI & Interactive Experiences",
+
+    heroImage: "/Blogs/VrImage.png",
+    alt: "VrImage.png",
+
+    description: [
+      "Modern web technologies are transforming how users interact with digital platforms. From AI-powered interfaces to immersive animations, developers are creating faster, smarter and more engaging applications than ever before.",
+
+      "Companies across the world are adopting advanced frontend frameworks and cloud solutions to deliver seamless user experiences. Tools like React, Next.js and Tailwind CSS are helping teams build scalable and maintainable applications with improved performance.",
+
+      "As technology continues to evolve, developers are focusing more on accessibility, responsive design and personalized experiences. These innovations are shaping the next generation of websites and digital products.",
+    ],
+
+    quote: {
+      text: "Technology is best when it brings people together and makes complex things feel simple.",
+      author: "Matt Mullenweg",
+    },
+
+    content: [
+      "The rise of AI-driven tools is changing the workflow of modern developers. From automated code suggestions to intelligent design systems, teams can now build products faster while maintaining high quality standards. Businesses are also investing heavily in digital transformation to stay competitive in an increasingly connected world.",
+
+      "Frontend development has become more dynamic with frameworks like Next.js enabling server-side rendering, optimized performance and improved SEO capabilities. Developers are combining these tools with reusable component architectures to create efficient and scalable applications.",
+
+      "User expectations are also evolving rapidly. People now expect websites to load instantly, work smoothly across devices and provide intuitive navigation. As a result, performance optimization and responsive design have become essential parts of every development process.",
+    ],
+
+    secondaryImage: "/blogs/gaming.png",
+
+    footerText:
+      "The future of technology will continue to blend creativity, artificial intelligence and user-focused design. Developers who adapt to these modern tools and practices will play a major role in shaping innovative digital experiences for millions of users worldwide.",
+  },
+   {
+    id: 9,
+    slug:"train-blog",
+    category: "Development",
+    date: "16 March 2023",
+    title:
+      "The Future of Web Development with Modern AI & Interactive Experiences",
+
+    heroImage: "/Blogs/VrImage.png",
+    alt: "VrImage.png",
+
+    description: [
+      "Modern web technologies are transforming how users interact with digital platforms. From AI-powered interfaces to immersive animations, developers are creating faster, smarter and more engaging applications than ever before.",
+
+      "Companies across the world are adopting advanced frontend frameworks and cloud solutions to deliver seamless user experiences. Tools like React, Next.js and Tailwind CSS are helping teams build scalable and maintainable applications with improved performance.",
+
+      "As technology continues to evolve, developers are focusing more on accessibility, responsive design and personalized experiences. These innovations are shaping the next generation of websites and digital products.",
+    ],
+
+    quote: {
+      text: "Technology is best when it brings people together and makes complex things feel simple.",
+      author: "Matt Mullenweg",
+    },
+
+    content: [
+      "The rise of AI-driven tools is changing the workflow of modern developers. From automated code suggestions to intelligent design systems, teams can now build products faster while maintaining high quality standards. Businesses are also investing heavily in digital transformation to stay competitive in an increasingly connected world.",
+
+      "Frontend development has become more dynamic with frameworks like Next.js enabling server-side rendering, optimized performance and improved SEO capabilities. Developers are combining these tools with reusable component architectures to create efficient and scalable applications.",
+
+      "User expectations are also evolving rapidly. People now expect websites to load instantly, work smoothly across devices and provide intuitive navigation. As a result, performance optimization and responsive design have become essential parts of every development process.",
+    ],
+
+    secondaryImage: "/blogs/gaming.png",
+
+    footerText:
+      "The future of technology will continue to blend creativity, artificial intelligence and user-focused design. Developers who adapt to these modern tools and practices will play a major role in shaping innovative digital experiences for millions of users worldwide.",
+  },
+  {
+    id: 10,
+    slug:"train-blog",
+    category: "Development",
+    date: "16 March 2023",
+    title:
+      "The Future of Web Development with Modern AI & Interactive Experiences",
+
+    heroImage: "/Blogs/VrImage.png",
+    alt: "VrImage.png",
+
+    description: [
+      "Modern web technologies are transforming how users interact with digital platforms. From AI-powered interfaces to immersive animations, developers are creating faster, smarter and more engaging applications than ever before.",
+
+      "Companies across the world are adopting advanced frontend frameworks and cloud solutions to deliver seamless user experiences. Tools like React, Next.js and Tailwind CSS are helping teams build scalable and maintainable applications with improved performance.",
+
+      "As technology continues to evolve, developers are focusing more on accessibility, responsive design and personalized experiences. These innovations are shaping the next generation of websites and digital products.",
+    ],
+
+    quote: {
+      text: "Technology is best when it brings people together and makes complex things feel simple.",
+      author: "Matt Mullenweg",
+    },
+
+    content: [
+      "The rise of AI-driven tools is changing the workflow of modern developers. From automated code suggestions to intelligent design systems, teams can now build products faster while maintaining high quality standards. Businesses are also investing heavily in digital transformation to stay competitive in an increasingly connected world.",
+
+      "Frontend development has become more dynamic with frameworks like Next.js enabling server-side rendering, optimized performance and improved SEO capabilities. Developers are combining these tools with reusable component architectures to create efficient and scalable applications.",
+
+      "User expectations are also evolving rapidly. People now expect websites to load instantly, work smoothly across devices and provide intuitive navigation. As a result, performance optimization and responsive design have become essential parts of every development process.",
+    ],
+
+    secondaryImage: "/blogs/gaming.png",
+
+    footerText:
+      "The future of technology will continue to blend creativity, artificial intelligence and user-focused design. Developers who adapt to these modern tools and practices will play a major role in shaping innovative digital experiences for millions of users worldwide.",
+  },
+  {
+    id: 11,
+    slug:"train-blog",
+    category: "Development",
+    date: "16 March 2023",
+    title:
+      "The Future of Web Development with Modern AI & Interactive Experiences",
+
+    heroImage: "/Blogs/VrImage.png",
+    alt: "VrImage.png",
+
+    description: [
+      "Modern web technologies are transforming how users interact with digital platforms. From AI-powered interfaces to immersive animations, developers are creating faster, smarter and more engaging applications than ever before.",
+
+      "Companies across the world are adopting advanced frontend frameworks and cloud solutions to deliver seamless user experiences. Tools like React, Next.js and Tailwind CSS are helping teams build scalable and maintainable applications with improved performance.",
+
+      "As technology continues to evolve, developers are focusing more on accessibility, responsive design and personalized experiences. These innovations are shaping the next generation of websites and digital products.",
+    ],
+
+    quote: {
+      text: "Technology is best when it brings people together and makes complex things feel simple.",
+      author: "Matt Mullenweg",
+    },
+
+    content: [
+      "The rise of AI-driven tools is changing the workflow of modern developers. From automated code suggestions to intelligent design systems, teams can now build products faster while maintaining high quality standards. Businesses are also investing heavily in digital transformation to stay competitive in an increasingly connected world.",
+
+      "Frontend development has become more dynamic with frameworks like Next.js enabling server-side rendering, optimized performance and improved SEO capabilities. Developers are combining these tools with reusable component architectures to create efficient and scalable applications.",
+
+      "User expectations are also evolving rapidly. People now expect websites to load instantly, work smoothly across devices and provide intuitive navigation. As a result, performance optimization and responsive design have become essential parts of every development process.",
+    ],
+
+    secondaryImage: "/blogs/gaming.png",
+
+    footerText:
+      "The future of technology will continue to blend creativity, artificial intelligence and user-focused design. Developers who adapt to these modern tools and practices will play a major role in shaping innovative digital experiences for millions of users worldwide.",
+  },
+  {
+    id: 12,
+    slug:"dev-blog",
+    category: "Development",
+    date: "16 March 2023",
+    title:
+      "The Future of Web Development with Modern AI & Interactive Experiences",
+
+    heroImage: "/Blogs/VrImage.png",
+    alt: "VrImage.png",
+
+    description: [
+      "Modern web technologies are transforming how users interact with digital platforms. From AI-powered interfaces to immersive animations, developers are creating faster, smarter and more engaging applications than ever before.",
+
+      "Companies across the world are adopting advanced frontend frameworks and cloud solutions to deliver seamless user experiences. Tools like React, Next.js and Tailwind CSS are helping teams build scalable and maintainable applications with improved performance.",
+
+      "As technology continues to evolve, developers are focusing more on accessibility, responsive design and personalized experiences. These innovations are shaping the next generation of websites and digital products.",
+    ],
+
+    quote: {
+      text: "Technology is best when it brings people together and makes complex things feel simple.",
+      author: "Matt Mullenweg",
+    },
+
+    content: [
+      "The rise of AI-driven tools is changing the workflow of modern developers. From automated code suggestions to intelligent design systems, teams can now build products faster while maintaining high quality standards. Businesses are also investing heavily in digital transformation to stay competitive in an increasingly connected world.",
+
+      "Frontend development has become more dynamic with frameworks like Next.js enabling server-side rendering, optimized performance and improved SEO capabilities. Developers are combining these tools with reusable component architectures to create efficient and scalable applications.",
+
+      "User expectations are also evolving rapidly. People now expect websites to load instantly, work smoothly across devices and provide intuitive navigation. As a result, performance optimization and responsive design have become essential parts of every development process.",
+    ],
+
+    secondaryImage: "/blogs/gaming.png",
+
+    footerText:
+      "The future of technology will continue to blend creativity, artificial intelligence and user-focused design. Developers who adapt to these modern tools and practices will play a major role in shaping innovative digital experiences for millions of users worldwide.",
+  },
+  {
+    id: 13,
+    slug:"sport-blog",
+    category: "Development",
+    date: "16 March 2023",
+    title:
+      "The Future of Web Development with Modern AI & Interactive Experiences",
+
+    heroImage: "/Blogs/VrImage.png",
+    alt: "VrImage.png",
+
+    description: [
+      "Modern web technologies are transforming how users interact with digital platforms. From AI-powered interfaces to immersive animations, developers are creating faster, smarter and more engaging applications than ever before.",
+
+      "Companies across the world are adopting advanced frontend frameworks and cloud solutions to deliver seamless user experiences. Tools like React, Next.js and Tailwind CSS are helping teams build scalable and maintainable applications with improved performance.",
+
+      "As technology continues to evolve, developers are focusing more on accessibility, responsive design and personalized experiences. These innovations are shaping the next generation of websites and digital products.",
+    ],
+
+    quote: {
+      text: "Technology is best when it brings people together and makes complex things feel simple.",
+      author: "Matt Mullenweg",
+    },
+
+    content: [
+      "The rise of AI-driven tools is changing the workflow of modern developers. From automated code suggestions to intelligent design systems, teams can now build products faster while maintaining high quality standards. Businesses are also investing heavily in digital transformation to stay competitive in an increasingly connected world.",
+
+      "Frontend development has become more dynamic with frameworks like Next.js enabling server-side rendering, optimized performance and improved SEO capabilities. Developers are combining these tools with reusable component architectures to create efficient and scalable applications.",
+
+      "User expectations are also evolving rapidly. People now expect websites to load instantly, work smoothly across devices and provide intuitive navigation. As a result, performance optimization and responsive design have become essential parts of every development process.",
+    ],
+
+    secondaryImage: "/blogs/gaming.png",
+
+    footerText:
+      "The future of technology will continue to blend creativity, artificial intelligence and user-focused design. Developers who adapt to these modern tools and practices will play a major role in shaping innovative digital experiences for millions of users worldwide.",
+  },
+  {
+    id: 14,
+    slug:"travels-blog",
+    category: "Development",
+    date: "16 March 2023",
+    title:
+      "The Future of Web Development with Modern AI & Interactive Experiences",
+
+    heroImage: "/Blogs/VrImage.png",
+    alt: "VrImage.png",
+
+    description: [
+      "Modern web technologies are transforming how users interact with digital platforms. From AI-powered interfaces to immersive animations, developers are creating faster, smarter and more engaging applications than ever before.",
+
+      "Companies across the world are adopting advanced frontend frameworks and cloud solutions to deliver seamless user experiences. Tools like React, Next.js and Tailwind CSS are helping teams build scalable and maintainable applications with improved performance.",
+
+      "As technology continues to evolve, developers are focusing more on accessibility, responsive design and personalized experiences. These innovations are shaping the next generation of websites and digital products.",
+    ],
+
+    quote: {
+      text: "Technology is best when it brings people together and makes complex things feel simple.",
+      author: "Matt Mullenweg",
+    },
+
+    content: [
+      "The rise of AI-driven tools is changing the workflow of modern developers. From automated code suggestions to intelligent design systems, teams can now build products faster while maintaining high quality standards. Businesses are also investing heavily in digital transformation to stay competitive in an increasingly connected world.",
+
+      "Frontend development has become more dynamic with frameworks like Next.js enabling server-side rendering, optimized performance and improved SEO capabilities. Developers are combining these tools with reusable component architectures to create efficient and scalable applications.",
+
+      "User expectations are also evolving rapidly. People now expect websites to load instantly, work smoothly across devices and provide intuitive navigation. As a result, performance optimization and responsive design have become essential parts of every development process.",
+    ],
+
+    secondaryImage: "/blogs/gaming.png",
+
+    footerText:
+      "The future of technology will continue to blend creativity, artificial intelligence and user-focused design. Developers who adapt to these modern tools and practices will play a major role in shaping innovative digital experiences for millions of users worldwide.",
+  },
+  {
+    id: 15,
+    slug:"buisness-blog",
+    category: "Development",
+    date: "16 March 2023",
+    title:
+      "The Future of Web Development with Modern AI & Interactive Experiences",
+
+    heroImage: "/Blogs/VrImage.png",
+    alt: "VrImage.png",
+
+    description: [
+      "Modern web technologies are transforming how users interact with digital platforms. From AI-powered interfaces to immersive animations, developers are creating faster, smarter and more engaging applications than ever before.",
+
+      "Companies across the world are adopting advanced frontend frameworks and cloud solutions to deliver seamless user experiences. Tools like React, Next.js and Tailwind CSS are helping teams build scalable and maintainable applications with improved performance.",
+
+      "As technology continues to evolve, developers are focusing more on accessibility, responsive design and personalized experiences. These innovations are shaping the next generation of websites and digital products.",
+    ],
+
+    quote: {
+      text: "Technology is best when it brings people together and makes complex things feel simple.",
+      author: "Matt Mullenweg",
+    },
+
+    content: [
+      "The rise of AI-driven tools is changing the workflow of modern developers. From automated code suggestions to intelligent design systems, teams can now build products faster while maintaining high quality standards. Businesses are also investing heavily in digital transformation to stay competitive in an increasingly connected world.",
+
+      "Frontend development has become more dynamic with frameworks like Next.js enabling server-side rendering, optimized performance and improved SEO capabilities. Developers are combining these tools with reusable component architectures to create efficient and scalable applications.",
+
+      "User expectations are also evolving rapidly. People now expect websites to load instantly, work smoothly across devices and provide intuitive navigation. As a result, performance optimization and responsive design have become essential parts of every development process.",
+    ],
+
+    secondaryImage: "/blogs/gaming.png",
+
+    footerText:
+      "The future of technology will continue to blend creativity, artificial intelligence and user-focused design. Developers who adapt to these modern tools and practices will play a major role in shaping innovative digital experiences for millions of users worldwide.",
+  },
+  {
+    id: 16,
+    slug:"chocolate-blog",
+    category: "Development",
+    date: "16 March 2023",
+    title:
+      "The Future of Web Development with Modern AI & Interactive Experiences",
+
+    heroImage: "/Blogs/VrImage.png",
+    alt: "VrImage.png",
+
+    description: [
+      "Modern web technologies are transforming how users interact with digital platforms. From AI-powered interfaces to immersive animations, developers are creating faster, smarter and more engaging applications than ever before.",
+
+      "Companies across the world are adopting advanced frontend frameworks and cloud solutions to deliver seamless user experiences. Tools like React, Next.js and Tailwind CSS are helping teams build scalable and maintainable applications with improved performance.",
+
+      "As technology continues to evolve, developers are focusing more on accessibility, responsive design and personalized experiences. These innovations are shaping the next generation of websites and digital products.",
+    ],
+
+    quote: {
+      text: "Technology is best when it brings people together and makes complex things feel simple.",
+      author: "Matt Mullenweg",
+    },
+
+    content: [
+      "The rise of AI-driven tools is changing the workflow of modern developers. From automated code suggestions to intelligent design systems, teams can now build products faster while maintaining high quality standards. Businesses are also investing heavily in digital transformation to stay competitive in an increasingly connected world.",
+
+      "Frontend development has become more dynamic with frameworks like Next.js enabling server-side rendering, optimized performance and improved SEO capabilities. Developers are combining these tools with reusable component architectures to create efficient and scalable applications.",
+
+      "User expectations are also evolving rapidly. People now expect websites to load instantly, work smoothly across devices and provide intuitive navigation. As a result, performance optimization and responsive design have become essential parts of every development process.",
+    ],
+
+    secondaryImage: "/blogs/gaming.png",
+
+    footerText:
+      "The future of technology will continue to blend creativity, artificial intelligence and user-focused design. Developers who adapt to these modern tools and practices will play a major role in shaping innovative digital experiences for millions of users worldwide.",
+  },
+
 ];
 export const cards = [
   {

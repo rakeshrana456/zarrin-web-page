@@ -14,8 +14,8 @@ export default function Recentpost() {
           >
             Our Recent Posts
           </Typography>
-
-          <Button variant="secondary">View</Button>
+<Link href="/blog">
+          <Button variant="secondary">View</Button></Link>
         </div>
 
         <div className="flex flex-col lg:flex-row mt-10 mb-20 gap-8">

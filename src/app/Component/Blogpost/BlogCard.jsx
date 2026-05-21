@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link"
 import Typography from "../Typography";
 export default function BlogCard({ data }) {
   return (
@@ -41,7 +42,7 @@ export default function BlogCard({ data }) {
                 </Typography>
               </div>
 
-              <div className="min-h-[120px]">
+              <div className="min-h-30">
                 <Typography
                   variant="heading"
                   className="text-[16px] text-[#666666]"
@@ -50,12 +51,14 @@ export default function BlogCard({ data }) {
                 </Typography>
               </div>
               <div className="mt-auto">
+             <Link href={`/blog/${data.slug}`}>
                 <Typography
                   variant="heading"
                   className="text-[#7C4EE4]  text-[18px] font-bold underline cursor-pointer hover:text-purple-400 hover:opacity-90 transition-all duration-200"
                 >
                   {data.buttonText}
                 </Typography>
+                </Link>
               </div>
             </div>
           </div>
