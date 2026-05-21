@@ -66,8 +66,8 @@ export default function ThirdContainer() {
               variant="paragraph"
               className="
                 text-[#373737]
-                text-[14px]
-                md:text-[11px]
+                text-[11px]
+                lg:text-[14px]
                 leading-relaxed
               "
             >
