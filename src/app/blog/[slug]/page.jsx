@@ -5,6 +5,7 @@ import Image from "next/image";
 import Button from "../../Component/Button/Button";
 import BlogPost from "../../Component/Blogpost/BlogPost";
 
+
 export async function generateStaticParams() {
   return NewBlogs.map((blog) => ({
     slug: blog.slug,

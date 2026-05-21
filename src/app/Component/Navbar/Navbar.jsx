@@ -41,7 +41,7 @@ export default function Navbar() {
               Blog{" "}
             </Typography>
           </Link>
-          <Link href="/about">
+          <Link href="/About">
             <Typography
               variant="paragraph"
               className={
