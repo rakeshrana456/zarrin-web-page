@@ -5,8 +5,8 @@ export default function BlogCard({ data }) {
   return (
     <>
       <section>
-        <div className="w-full pt-6 px-4">
-  <div className="flex flex-col gap-4 h-full">
+        <div className="w-full pt-6 px-4 ">
+      <div className="flex flex-col gap-4 h-full justify-between">
     <div>
       <Image
         src={data.image}

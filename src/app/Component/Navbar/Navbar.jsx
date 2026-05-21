@@ -57,7 +57,7 @@ export default function Navbar() {
             </Typography>
           </Link>
           <Search className="w-4 h-4 text-gray-700 cursor-pointer" />
-          <button className="bg-[#7C4EE4] p-2 rounded-sm">
+       <Link href="/Contact"> <button className="bg-[#7C4EE4] p-2 rounded-sm">
             <Typography
               variant="heading"
               className=" text-[11px] text-white-200 w-20 cursor-pointer"
@@ -65,7 +65,7 @@ export default function Navbar() {
               {" "}
               Contact Us{" "}
             </Typography>
-          </button>
+          </button></Link>  
         </div>
         <button className="md:hidden" onClick={() => setOpenMenu(!openMenu)}>
           {openMenu ? (
@@ -92,7 +92,7 @@ export default function Navbar() {
               Blog{" "}
             </Typography>
           </Link>
-          <Link href="/about">
+          <Link href="/About">
             <Typography
             on
               variant="paragraph"
